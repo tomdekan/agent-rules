@@ -1,0 +1,23 @@
+---
+description: "Python code style: type hints, f-strings, import conventions"
+globs: "**/*.py"
+alwaysApply: false
+---
+
+# Python Code Style
+
+- Fully typed Python. Never use `# type: ignore`.
+- Use f-strings rather than other string formatting methods (e.g., `%`, `.format()`).
+- Avoid local imports unless essential.
+
+## Docstring Format
+
+Use a newline after the opening triple quotes:
+
+```python
+def example_function(arg: str) -> bool:
+    """
+    Brief description of what this function does.
+    """
+    return True
+```

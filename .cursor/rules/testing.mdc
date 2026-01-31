@@ -1,0 +1,23 @@
+---
+description: "Testing guidelines for Python projects"
+globs: "**/test*.py"
+alwaysApply: false
+---
+
+# Testing Guidelines
+
+- Do not write tests that verify library/framework internals (e.g., Django's ManyToManyField behavior). Tests should cover custom business logic only.
+
+## Why Manual Testing Matters
+
+After adding new functionality, especially involving:
+- Third-party API integrations
+- Complex data processing pipelines
+- Database model changes
+- Background task handlers
+
+Always run manual tests because:
+- Unit tests mock external APIs - manual tests verify real integration
+- Catches authentication issues, rate limits, API changes
+- Validates data formats match between services
+- Confirms end-to-end flow works with real data

@@ -1,0 +1,9 @@
+---
+description: "Prevent unintended LLM model changes"
+globs:
+alwaysApply: true
+---
+
+# LLM Model Safety
+
+Do not change LLM models without explicit user direction. Current models are specifically chosen for their capabilities.
