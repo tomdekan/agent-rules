@@ -1,5 +1,5 @@
 ---
-description: "When and why to run manual tests"
+description: "When and how to run manual tests"
 globs:
 alwaysApply: true
 ---
@@ -17,3 +17,9 @@ Always run manual tests because:
 - Catches authentication issues, rate limits, API changes
 - Validates data formats match between services
 - Confirms end-to-end flow works with real data
+
+## How to Test
+
+- **Front-end work**: If browser access is available, take visual screenshots to verify the changes
+- **Back-end work**: Run the code independently to verify it works
+- **Focus**: Test isolated components that were changed, not the entire system

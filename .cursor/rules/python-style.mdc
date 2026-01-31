@@ -1,5 +1,5 @@
 ---
-description: "Python code style: type hints, f-strings, import conventions"
+description: "Python code style: type hints, f-strings, function size, docstrings, import conventions"
 globs: "**/*.py"
 alwaysApply: false
 ---
