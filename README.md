@@ -14,9 +14,9 @@ Import as a remote rule in Cursor:
 
 | Rule | Description | Applied To |
 |------|-------------|------------|
-| `communication-style` | Direct feedback, minimal formatting, no compliments | Always |
-| `decision-support` | Evaluate suggestions, propose better alternatives | Always |
-| `python-style` | Type hints, f-strings, function size, import conventions | `**/*.py` |
-| `tests-automatic` | Guidelines for writing automated tests | `**/test*.py` |
-| `tests-manual` | When and how to run manual tests | Always |
-| `llm-choice` | Prevent unintended LLM model changes | Always |
+| `communication-style.mdc` | Direct feedback, minimal formatting, no compliments | Always |
+| `decision-support.mdc` | Evaluate suggestions, propose better alternatives | Always |
+| `python-style.mdc` | Type hints, f-strings, function size, import conventions | `**/*.py` |
+| `tests-automatic.mdc` | Guidelines for writing automated tests | `**/test*.py` |
+| `tests-manual.mdc` | When and how to run manual tests | Always |
+| `llm-choice.mdc` | Prevent unintended LLM model changes | Always |
