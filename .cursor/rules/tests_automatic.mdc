@@ -1,0 +1,9 @@
+---
+description: "Guidelines for writing automated tests"
+globs: "**/test*.py"
+alwaysApply: false
+---
+
+# Automated Testing Guidelines
+
+- Do not write tests that verify library/framework internals (e.g., Django's ManyToManyField behavior). Tests should cover custom business logic only.

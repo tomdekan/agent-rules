@@ -16,5 +16,6 @@ Import as a remote rule in Cursor:
 |------|-------------|------------|
 | `python-style` | Type hints, f-strings, import conventions | `**/*.py` |
 | `function-size` | Keep functions small and focused | `**/*.py` |
-| `testing` | Testing guidelines | `**/test*.py` |
-| `llm-safety` | Prevent unintended LLM model changes | Always |
+| `tests_automatic` | Guidelines for writing automated tests | `**/test*.py` |
+| `tests_manual` | When and why to run manual tests | Agent-decided |
+| `llm-choice` | Prevent unintended LLM model changes | Always |

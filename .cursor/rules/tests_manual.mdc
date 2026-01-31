@@ -1,14 +1,10 @@
 ---
-description: "Testing guidelines for Python projects"
-globs: "**/test*.py"
+description: "When and why to run manual tests"
+globs:
 alwaysApply: false
 ---
 
-# Testing Guidelines
-
-- Do not write tests that verify library/framework internals (e.g., Django's ManyToManyField behavior). Tests should cover custom business logic only.
-
-## Why Manual Testing Matters
+# Manual Testing Guidelines
 
 After adding new functionality, especially involving:
 - Third-party API integrations
