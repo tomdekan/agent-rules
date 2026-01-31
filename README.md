@@ -17,6 +17,6 @@ Import as a remote rule in Cursor:
 | `communication-style` | Direct feedback, minimal formatting, no compliments | Always |
 | `decision-support` | Evaluate suggestions, propose better alternatives | Always |
 | `python-style` | Type hints, f-strings, function size, import conventions | `**/*.py` |
-| `tests_automatic` | Guidelines for writing automated tests | `**/test*.py` |
-| `tests_manual` | When and why to run manual tests | Always |
+| `tests-automatic` | Guidelines for writing automated tests | `**/test*.py` |
+| `tests-manual` | When and how to run manual tests | Always |
 | `llm-choice` | Prevent unintended LLM model changes | Always |

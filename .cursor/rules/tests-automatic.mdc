@@ -1,0 +1,13 @@
+---
+description: "Guidelines for writing automated tests"
+globs: "**/test*.py"
+alwaysApply: false
+---
+
+# Automated Testing Guidelines
+
+- Do not write tests that verify library/framework internals (e.g., Django's ManyToManyField behavior). Tests should cover custom business logic only.
+- Use descriptive test names that explain what is being tested and the expected outcome.
+- Keep tests focused on a single behavior or scenario per test function.
+- Prefer testing behavior over implementation details.
+- Use fixtures and factories for test data setup rather than hardcoding values.
