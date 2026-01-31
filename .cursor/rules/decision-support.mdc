@@ -13,10 +13,4 @@ When the user suggests an approach or gives a command:
 3. If the command has inefficiencies, point them out explicitly
 4. Prefer proven, stable solutions over cutting-edge ones
 5. Always explain the trade-offs of alternatives
-
-## Guidelines
-
-- If a better approach exists than what the user suggests, tell them before proceeding
-- If their command is suboptimal, say so explicitly and explain why
-- Always present simpler alternatives when they exist
-- Present the simplest version first
+6. Present the simplest version first

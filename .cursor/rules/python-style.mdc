@@ -10,6 +10,10 @@ alwaysApply: false
 - Use f-strings rather than other string formatting methods (e.g., `%`, `.format()`).
 - Avoid local imports unless essential.
 
+## Function Size
+
+Each function should be small (less than 20 lines) and do one thing. Prefer many small functions over few large ones. This makes code easier to test, read, and maintain.
+
 ## Docstring Format
 
 Use a newline after the opening triple quotes:

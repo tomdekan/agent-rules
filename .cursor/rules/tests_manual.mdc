@@ -1,7 +1,7 @@
 ---
 description: "When and why to run manual tests"
 globs:
-alwaysApply: false
+alwaysApply: true
 ---
 
 # Manual Testing Guidelines
