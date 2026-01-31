@@ -1,0 +1,13 @@
+---
+description: "Use Django, PostgreSQL, HTMX, and Tailwind CSS conventions"
+globs: "**/*.py"
+alwaysApply: false
+---
+
+# Django Stack Conventions
+
+When writing code, use:
+- Django conventions
+- PostgreSQL conventions
+- HTMX conventions
+- Tailwind CSS conventions

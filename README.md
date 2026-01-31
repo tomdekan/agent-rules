@@ -14,8 +14,11 @@ Import as a remote rule in Cursor:
 
 | Rule | Description | Applied To |
 |------|-------------|------------|
+| `communication-style` | Direct feedback, minimal formatting, no compliments | Always |
+| `decision-support` | Evaluate suggestions, propose better alternatives | Always |
 | `python-style` | Type hints, f-strings, import conventions | `**/*.py` |
 | `function-size` | Keep functions small and focused | `**/*.py` |
+| `django-stack` | Django, PostgreSQL, HTMX, Tailwind conventions | `**/*.py` |
 | `tests_automatic` | Guidelines for writing automated tests | `**/test*.py` |
 | `tests_manual` | When and why to run manual tests | Agent-decided |
 | `llm-choice` | Prevent unintended LLM model changes | Always |
