@@ -20,6 +20,6 @@ Always run manual tests because:
 
 ## How to Test
 
-- **Front-end work**: If browser access is available, take visual screenshots to verify the changes
-- **Back-end work**: Run the code independently to verify it works
-- **Focus**: Test isolated components that were changed, not the entire system
+- **Front-end work**: If browser access is available, take visual screenshots to verify changes. Check browser console for errors and network requests for expected behavior.
+- **Back-end work**: Run code independently using Django shell, test scripts, or direct function calls. Verify inputs produce expected outputs and handle edge cases.
+- **Focus**: Test isolated components that were changed first, then verify integration points if needed.
